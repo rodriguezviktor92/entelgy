@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: steelblue;
+  margin-bottom: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  margin-right: 7rem;
+  margin-left: 7rem;
+  justify-content: center;
+  grid-auto-flow: dense;
+  grid-auto-rows: 13em;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.user-card {
+  background-color: blueviolet;
+  color: white;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 1.2em;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+
+.user-card > img {
+  border-radius: 5px 20px 5px;
+  width: 128px;
+  height: 128px;
+  object-fit: fill;
+}
+
+.profile {
+  padding-left: 5px;
+}

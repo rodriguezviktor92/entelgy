@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Users</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script type="module" src="./js//scripts.js" async></script>
   </head>
   <body>
     <header class="header">Users</header>
-
+    <template id="profile">
+      <div class="user-card">
+        <img src="https://i.ibb.co/yN1LzVQ/user.png" alt="avatar" />
+        <div class="profile">
+          <h2>Name LastName</h2>
+          <p>User Email</p>
+        </div>
+      </div>
+    </template>
     <div id="usersList" class="grid-container"></div>
   </body>
 </html>
