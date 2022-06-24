@@ -7,7 +7,9 @@
     <title>Users</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./js//scripts.js" async></script>
-    <script src="./js/cardProfile.js" async></script>
+    <script src="./js/components/cardProfile.js" async></script>
+    <script src="./js//components/modalProfile.js"></script>
+    <script src="./js/components/modalCard.js"></script>
   </head>
   <body>
     <header class="header">Users</header>
@@ -20,6 +22,18 @@
         </div>
       </div>
     </template>
+
+    <!-- <template id="modal">
+      <div class="modal">
+        <card-profile type="modal"></card-profile>
+      </div>
+    </template> -->
+
+    <my-modal></my-modal>
+    <!--     <modal-profile></modal-profile> -->
+    <!-- <button id="open">OPEN</button> -->
+    <!-- <card-profile></card-profile> -->
     <div id="usersList" class="grid-container"></div>
+    <div class="user-card"></div>
   </body>
 </html>
